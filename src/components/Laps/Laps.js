@@ -7,6 +7,7 @@ export const Laps = ({ laps }) => {
         return (
           <li key={index} className="list-group-item">
             <h4>
+              <span className="text-dark">{`Lap ${index}: `} </span>
               <span className="text-dark">Minute: </span>
               <span className="text-danger">{lap.min}</span>
               <span className="text-dark">Second: </span>

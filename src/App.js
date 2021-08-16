@@ -1,5 +1,7 @@
+import { Counter } from "./pages/Counter"
+
 function App() {
-  return <div>Hello</div>
+  return <Counter />
 }
 
 export default App
